@@ -1,0 +1,110 @@
+body {
+    background-color: #daf4fa;
+    font-family: "Maiandra GD", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #aed9e5;
+    padding: 20px;
+    font-size: 16px;
+    color: #475ca1;
+    margin: 0px;
+    outline: 4px solid #7abed1;
+}
+
+.nav {
+    padding: 10px;
+    display: flex;
+}
+
+.button {
+    background-color: #daf4fa;
+    margin: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.button:hover {
+    background-color: #c0e9f3;
+    cursor: pointer;
+}
+
+.button:hover a {
+    color: #3c4f8a;
+}
+
+.button a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #475ca1;
+    font-weight: bold;
+}
+
+
+.content {
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #aed9e5;
+    width: 600px;
+    outline: 4px solid #7abed1;
+    border-radius: 10px;
+    color: #475ca1;
+}
+
+body .Tasks {
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #475ca1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Tasks {
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #475ca1;
+}
+
+.Task {
+    background-color: #aed9e5;
+    margin: 0px;
+    width: 100px;
+    outline: 4px solid #7abed1;
+    border-radius: 10px;
+    color: #475ca1;
+    margin: 30px;
+    width: 400px;
+
+}
+
+.Task a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #475ca1;
+    font-weight: bold;
+}
+
+.Task:hover {
+    background-color: #538b9b;
+    outline: 4px solid #3a7485;
+    cursor: pointer;
+}
+
+.Task:hover a {
+    color: #3c4f8a;
+}
