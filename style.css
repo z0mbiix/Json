@@ -47,7 +47,7 @@ body {
     font-weight: bold;
 }
 
-
+/* content for json converted in java */
 .content {
     margin: 20px;
     padding: 20px;
@@ -58,7 +58,19 @@ body {
     border-radius: 10px;
     color: #475ca1;
 }
+/* content for json file */
+.movies {
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: #aed9e5;
+    width: 600px;
+    outline: 4px solid #7abed1;
+    border-radius: 10px;
+    color: #475ca1;
+}
 
+/* Json tasks page */
 body .Tasks {
     margin: 20px;
     padding: 20px;
