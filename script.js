@@ -23,3 +23,26 @@ if (dateElement) {
 }
 
 // Del 3
+
+// SIKT Task
+
+// Arrays
+const resultatAElement = document.getElementById("resultatA");
+if (resultatAElement) {
+    const games = [];
+    games[0]= "Minecraft";
+    games[1]= "Brawlhalla";
+    games[2]= "Roblox";
+
+    resultatAElement.textContent = " my 2nd favourite game is " + games[1] + "." ;
+}
+
+// Objects
+const resultatOElement = document.getElementById("resultatO");
+if (resultatOElement) {
+    const car = {
+        
+    }
+
+    resultatOElement.textContent = "The model of the car is" +  + ".";
+}
