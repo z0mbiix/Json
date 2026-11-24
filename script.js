@@ -41,8 +41,30 @@ if (resultatAElement) {
 const resultatOElement = document.getElementById("resultatO");
 if (resultatOElement) {
     const car = {
-        
-    }
+        brand: "Volkswagen",
+        model: "Bora",
+        year: "1999"
+    };
 
-    resultatOElement.textContent = "The model of the car is" +  + ".";
+    resultatOElement.textContent = "The model of the car is " + car.model + ".";
 }
+
+// Json
+const resultatJElement = document.getElementById("resultatJ");
+if (resultatJElement) {
+    const text = '{"name": "Amina", "age": 17}';
+    const person = JSON.parse(text);
+
+    resultatJElement.textContent = "my name is " + person.name + " and I am " + person.age;
+}
+
+// Get File
+
+async function GetData() {
+    const response = await fetch(data.json)
+    const data = await response.json();
+
+    
+}
+
+GetData();
